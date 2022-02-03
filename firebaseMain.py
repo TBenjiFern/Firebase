@@ -177,12 +177,18 @@ def balance_notification(db):
 
 
 
-
+# Runs the entire program and loops menu
 def main():
+    # Establish link with firebase db and return the db
     db = link_firestore()
+    # Initialize notification system to check account balances
     balance_notification(db)
+    # Create menu navigation variable
     option = None
+    # Added sleep so that notification system can send notice before menu runs 
+    # Delete this and add better wait
     time.sleep(1)
+    # Main terminal menu options: display all options first then let user input
     while option != "0":
         print()
         print("0) Exit Program")
@@ -191,12 +197,15 @@ def main():
         print("3) Log Into Account")
         option = input(">> ")
         print()
+        # if statement will enable user input to have an effect. Incorrect input will not break loop
         if option == "1":
             create_user(db)
         elif option =="2":
             display_accounts(db)
         elif option == "3":
             access_account(db)
+
+    # Exited program statement
     print("Program exited...")
     print()
     print("Have a great day!")
