@@ -8,9 +8,7 @@ Lastly, this program is written so that each major change and update made to any
 
 I chose to write this software because I wanted to gain a basic understanding of how to set up and access a cloud database. On top of that, I wanted to practice inserting information, modifying that information, and deleting that information from a cloud database to ensure that I understood how to use the database correctly. I've taken part of a lot of smaller projects in the past which were shot down because no one in my group understood how to implement a database correctly. Above all else, I wrote this program so that I can be able to implement cloud databases into future projects.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/VnC8ispYlEM)
 
 # Cloud Database
 
